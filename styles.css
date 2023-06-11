@@ -6,9 +6,11 @@
 
 #container {
   max-width: 600px;
-  margin: 130px auto;
+  margin: 90px auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
+  /* For small screens */
+  padding: 0 40px;
 }
 
 p {
@@ -32,13 +34,14 @@ p {
 }
 
 #sponsors-logo-wrap {
-  padding: 0 45px;
   width: 100%;
   margin: 55px 0;
+/* Big Screen */
+  padding: 0 0;
 }
 
 #sponsors-logo-wrap > .img-wrap {
-  width: 49.3%;
+  width: 100%;
   display: inline-block;
   vertical-align: middle;
   text-align: center;
@@ -46,16 +49,68 @@ p {
 
 #sponsors-logo-wrap > .img-wrap > a {
   display: inline-block;
+  width: 100%;
 }
 
+/* Big Screen */
 #sponsors-logo-wrap > .img-wrap > a > img {
-  height: 120px;
+  height: 100px;
 }
 
 #sponsors-logo-wrap > .asrt-logo-wrap {
-  text-align: left;
+  margin-bottom: 50px;
 }
 
-#sponsors-logo-wrap > .ainshams-logo-wrap {
-  text-align: right;
+
+
+
+
+
+@media screen and (min-width: 415px) {
+
+  #sponsors-logo-wrap {
+    padding: 0 0;
+  }
+
+  #sponsors-logo-wrap > .img-wrap {
+    width: 49%;
+  }
+
+  #sponsors-logo-wrap > .img-wrap > a > img {
+    height: 90px;
+  }
+
+  #sponsors-logo-wrap > .asrt-logo-wrap {
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  #sponsors-logo-wrap > .ainshams-logo-wrap {
+    text-align: right;
+  }
+
+}
+
+@media screen and (min-width: 525px) {
+
+  #sponsors-logo-wrap {
+    padding: 0 40px;
+  }
+
+  #sponsors-logo-wrap > .img-wrap > a > img {
+    height: 100px;
+  }
+
+}
+
+@media screen and (min-width: 800px) {
+
+  #sponsors-logo-wrap {
+    padding: 0 45px;
+  }
+
+  #sponsors-logo-wrap > .img-wrap > a > img {
+    height: 120px;
+  }
+
 }
