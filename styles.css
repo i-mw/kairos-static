@@ -1,0 +1,61 @@
+*, *>* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  max-width: 600px;
+  margin: 130px auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+p {
+  text-align: justify;
+}
+
+.wrap {
+  margin-bottom: 40px;
+}
+
+#kairos-logo-wrap {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+#kairos-logo-wrap > img {
+  width: 275px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#sponsors-logo-wrap {
+  padding: 0 45px;
+  width: 100%;
+  margin: 55px 0;
+}
+
+#sponsors-logo-wrap > .img-wrap {
+  width: 49.3%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#sponsors-logo-wrap > .img-wrap > a {
+  display: inline-block;
+}
+
+#sponsors-logo-wrap > .img-wrap > a > img {
+  height: 120px;
+}
+
+#sponsors-logo-wrap > .asrt-logo-wrap {
+  text-align: left;
+}
+
+#sponsors-logo-wrap > .ainshams-logo-wrap {
+  text-align: right;
+}
