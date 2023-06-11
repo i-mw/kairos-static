@@ -66,6 +66,32 @@ p {
 
 
 
+
+@media screen and (min-width: 370px) {
+
+  #sponsors-logo-wrap {
+    padding: 0 0;
+  }
+
+  #sponsors-logo-wrap > .img-wrap {
+    width: 48%;
+  }
+
+  #sponsors-logo-wrap > .img-wrap > a > img {
+    height: 80px;
+  }
+
+  #sponsors-logo-wrap > .asrt-logo-wrap {
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  #sponsors-logo-wrap > .ainshams-logo-wrap {
+    text-align: right;
+  }
+
+}
+
 @media screen and (min-width: 415px) {
 
   #sponsors-logo-wrap {
@@ -78,15 +104,6 @@ p {
 
   #sponsors-logo-wrap > .img-wrap > a > img {
     height: 90px;
-  }
-
-  #sponsors-logo-wrap > .asrt-logo-wrap {
-    text-align: left;
-    margin-bottom: 0;
-  }
-
-  #sponsors-logo-wrap > .ainshams-logo-wrap {
-    text-align: right;
   }
 
 }
